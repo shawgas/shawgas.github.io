@@ -3,7 +3,8 @@ $( document ).ready(function() {
                 $("#about_scroll").fadeOut();   
                 $("#work_scroll").fadeOut();
                 $("#cook_scroll").fadeOut();
-		$("#travel_scroll").fadeOut();
+			    $("#travel_scroll").fadeOut();
+			    $("#love_scroll").fadeOut();
 
                 $("#about").click(function(){
                     $("#index").fadeOut();
