@@ -29,6 +29,12 @@ $( document ).ready(function() {
                     $('#travel_left').addClass('animated slideInLeft');
                     $('#travel_right').addClass('animated slideInRight');
                     });
+				$("#love").click(function(){
+                    $("#index").fadeOut();
+                    $("#love_scroll").fadeIn();
+                    $('#love_scroll').addClass('animated slideInLeft');
+                    $('#love_scroll').addClass('animated slideInRight');
+                    });
                 $(".back").click(function(){
                     $(".pages").fadeOut();
                     $("#index").fadeIn();
